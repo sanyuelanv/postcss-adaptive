@@ -1,6 +1,6 @@
 {
   "name": "postcss-adaptive-rpx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "change rpx to rem",
   "main": "index.js",
   "directories": {
