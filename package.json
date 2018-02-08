@@ -1,18 +1,22 @@
 {
   "name": "postcss-adaptive-rpx",
-  "version": "0.5.0",
-  "description": "use rpx to rem",
+  "version": "1.0.0",
+  "description": "change rpx to rem",
   "main": "index.js",
-  "author": "sanyuelanv <244352437@qq.com>",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/sanyuelanv/postcss-adaptive.git"
   },
-  "license": "MIT",
-  "keywords": [
-    "postcss",
-    "rem"
-  ],
+  "author": "sanyuelanv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanyuelanv/postcss-adaptive/issues"
+  },
+  "homepage": "https://github.com/sanyuelanv/postcss-adaptive#readme",
   "scripts": {
     "test:babel": "babel src --out-dir lib",
     "test:lint": "eslint src",
