@@ -1,18 +1,17 @@
 {
-  "name": "postcss-adaptive",
+  "name": "postcss-adaptive-rpx",
   "version": "0.5.0",
-  "description": "A postcss plugin that calculates and generates adaptive css code, such as rem and 0.5px borders for retina devices",
+  "description": "use rpx to rem",
   "main": "index.js",
-  "author": "songsiqi <songsiqi2006@126.com>",
+  "author": "sanyuelanv <244352437@qq.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/songsiqi/postcss-adaptive.git"
+    "url": ""
   },
   "license": "MIT",
   "keywords": [
     "postcss",
-    "rem",
-    "hairline"
+    "rem"
   ],
   "scripts": {
     "test:babel": "babel src --out-dir lib",
