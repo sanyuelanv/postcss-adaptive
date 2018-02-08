@@ -23,7 +23,6 @@ export default class Adaptive {
   }
   // 寻找所有的rules
   _processRules (rules) {
-    this.result.warn(rules.length)
     for (let i = 0; i < rules.length; i++) {
       const rule = rules[i]
       const ruleType = rule.type
